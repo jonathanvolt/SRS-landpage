@@ -1,0 +1,237 @@
+
+body{ 
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+a {
+    text-decoration: none;
+}
+
+#topo {
+    color: #fff;
+    background: url('../images/phoneLogin2.png') no-repeat top right, #030303;
+    background-position: right 0px top 55px;
+    height: 100vh;
+    padding: 80px;
+    }
+#destaque h1{
+    margin-top: 120px;
+    font-size: 40px;
+}
+
+#destaque p{
+    font-size: 14px;
+    color: #ddd;
+    margin-top: 20px;
+    max-width: 550px;
+    text-align: justify;
+}
+
+.bt-destaque{
+ background: #6a3d5a;
+ color: #fff;
+ display: block;
+ padding: 15px 60px;
+ font-size: 24px;
+ border-radius: 200px;
+ margin-top: 40px;
+ width:240px;
+ box-sizing: border-box;
+}
+
+.title {
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+header {
+    position: relative;
+    height: 100px; /* Adjust the height as needed */
+}
+
+#vantagens{
+    background: #6a3d5a;
+    color:#fff;
+    padding: 80px ;
+    overflow: hidden;
+}
+#vantagens h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#vantagens > div{ 
+    float:left;
+    width: 25%;
+    margin-bottom: 30px;
+    text-align: center;
+    border-right: solid 1px #fff;
+    box-sizing: border-box;
+}
+#vantagens > div:last-child{ 
+    border-right: none;
+} 
+
+#vantagens h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px; 
+}
+
+#vantagens p{ 
+    margin-top: 0px;
+    font-size: 15px;
+}
+
+footer{ 
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+
+@media (max-width: 1200px){
+    #topo{background: #030303}
+    #destaque h1, #destaque p, .logo{
+        text-align: center;
+    }
+     #destaque p{margin: 0 auto; }
+     .bt-destaque{margin: 30px auto;}
+    }
+
+
+.comentarios h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.cards{ 
+    display: flex;
+    justify-content: center;
+}
+
+.comentarios .card-item{
+    background-color: #eccce1 ;
+    margin: 20px;
+    border-radius: 14px;
+    text-align: center;
+    width: 3000px;
+    height: 300px;
+    transition: 0.3 ;
+}
+
+.comentarios .card-item img{
+    border-radius: 100%;
+    width: 80px;
+    display: block;
+    margin: 20px auto;
+}
+
+.comentarios .card-item:hover{
+background-color: #834b6f;
+margin-top: -5px;
+}
+
+.comentarios .card-item:hover .detalhes{
+color: #fff
+}
+
+
+
+
+
+/* Estilo da seção principal */
+.clientes {
+    background-color: #834b6f; /* Cor de fundo */
+    padding: 40px 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.clientestopo h3, .clientes p {
+    display: block; 
+    color: #fff;
+
+ 
+}
+
+.clientetopo h3 {
+    color: #fff; 
+    font-size: 30px;
+    margin: 30px auto;
+
+}
+
+.clientestopo p {
+    color: #fff; 
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.conteiner {
+    max-width: 1200px;
+    margin-bottom: 0 auto;
+    
+}
+
+/* Organização das imagens e títulos */
+.local {
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    
+}
+
+.local img {
+    width: 100%;
+    height: 200px; /* Tamanho fixo para uniformizar as imagens */
+    border-radius: 8px;
+    transition: transform 0.3s ease; /* Animação ao passar o mouse */
+}
+
+.local:hover img {
+    transform: scale(1.1); /* Aumenta a imagem ao passar o mouse */
+}
+
+.local h4 {
+    color: #fff;
+    margin-top: 8px;
+    font-size: 20px;
+}
+
+/* Efeito de caixa de texto ao clicar */
+.local .text-box {
+    display: none;
+    width: 100%;
+    height: 150px; /* Tamanho igual ao da imagem */
+    background-color: #fff;
+    color: #834b6f;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 50px; /* Centraliza o texto verticalmente */
+    font-size: 1.2em;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Organização em duas linhas */
+.clientes .conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+
